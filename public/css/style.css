@@ -1,3 +1,17 @@
+/* Color Theme Swatches in Hex */
+.Remotips-1-hex { color: #D93636; }
+.Remotips-2-hex { color: #A62E2E; }
+.Remotips-3-hex { color: #732424; }
+.Remotips-4-hex { color: #262626; }
+.Remotips-5-hex { color: #0D0D0D; }
+
+/* Color Theme Swatches in RGBA */
+.Remotips-1-rgba { color: rgba(216, 54, 54, 1); }
+.Remotips-2-rgba { color: rgba(165, 46, 46, 1); }
+.Remotips-3-rgba { color: rgba(114, 35, 35, 1); }
+.Remotips-4-rgba { color: rgba(38, 38, 38, 1); }
+.Remotips-5-rgba { color: rgba(12, 12, 12, 1); }
+
 header, .project:not(:last-child) {
   border-bottom: 1px solid #ccc;
 }
