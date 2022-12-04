@@ -18,6 +18,9 @@ Blog.init(
     blog_post: {
       type: DataTypes.STRING,
     },
+    // blog_id: {
+    //   type: DataTypes.INTEGER,
+    // },
     date_created: {
       type: DataTypes.DATE,
       allowNull: false,
