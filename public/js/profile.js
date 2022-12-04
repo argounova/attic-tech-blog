@@ -5,6 +5,11 @@ const newPostHandler = async (event) => {
   const blogContent = document.querySelector('#blog-content').value.trim();
   const category = document.querySelector('#category').value.trim();
 
+  console.log(blogTitle);
+  console.log(blogContent);
+  console.log(category);
+
+
   if (blogTitle && blogContent && category) {
     const response = await fetch(`/api/blogs`, {
       method: 'POST',
