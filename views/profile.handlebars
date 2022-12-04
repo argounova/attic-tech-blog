@@ -6,28 +6,35 @@
 
 <div class="row mt-4">
   <div class="col-md-6">
-    <h3>Create a New Project:</h3>
+    <h3>Create a New Post</h3>
 
-    <form class="form new-project-form">
+    <form class="form new-post-form">
       <div class="form-group">
-        <label for="project-name">project name:</label>
-        <input class="form-input" type="text" id="project-name" name="project-name" />
+        <label for="blog-title">Title:</label>
+        <input class="form-input" type="text" id="blog-title" name="blog-title" />
       </div>
       <div class="form-group">
-        <label for="project-funding">needed funding ($):</label>
-        <input class="form-input" type="number" id="project-funding" name="project-funding" />
+        <label for="blog-content">Content:</label>
+        <textarea class="form-input" type="number" id="blog-content" name="project-funding"></textarea>
       </div>
-      <div class="form-group">
-        <label for="project-desc">description:</label>
-        <textarea class="form-input" id="project-desc" name="project-desc"></textarea>
-      </div>
+      {{!-- <div class="form-group">
+        <label for="category">Select Category:</label>
+        <textarea class="form-input" id="category" name="category"></textarea>
+      </div> --}}
+      <select class="form-select" aria-label="Default select example" id="category">
+        <option selected>Select Category</option>
+        <option value="Tech">Tech</option>
+        <option value="Opinion">Opinion</option>
+        <option value="Review">Review</option>
+        <option value="News">News</option>
+      </select>
       <div class="form-group">
         <button type="submit" class="btn btn-primary">Create</button>
       </div>
     </form>
   </div>
 
-  {{#if projects.length}}
+  {{!-- {{#if projects.length}}
   <div class="col-md-6 project-list">
     <h3>Current Projects:</h3>
 
@@ -43,6 +50,6 @@
     {{/each}}
   </div>
   {{/if}}
-</div>
+</div> --}}
 
 <script src="./js/profile.js"></script>
