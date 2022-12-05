@@ -14,6 +14,8 @@
 
 header {
   background: linear-gradient(90deg, rgba(166,46,46,1) 0%, rgba(217,54,54,1) 50%, rgba(166,46,46,1) 100%);
+  border-bottom: #262626 solid 8px;
+  margin-bottom: 3%;
 }
 
 body {
@@ -29,6 +31,26 @@ body {
     0 0 0.2em #0D0D0D;
 }
 
+.blog-post {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 75%;
+  color: #c0c0c0;
+  border: #262626 solid 5px;
+  background-color: #000;
+}
+
+.blog-post h2 {
+  font-family: 'Aboreto', sans-serif;
+}
+
+.blog-post a {
+  color: #a0a0a0;
+  text-shadow: 
+  1px 1px 2px #D93636;
+}
+
 .nav-link {
   font-family: 'Aboreto', sans-serif;
   font-size: 1.2rem;
@@ -40,13 +62,13 @@ body {
   border: none;
   padding: 0;
   cursor: pointer;
-  color: #1b89bc;
+  color: #f0f0f0;
   text-decoration: none;
   font-size: 100%;
 }
 
 .no-button:hover {
-  color: #065b83;
+  color: #eeeeee;
   text-decoration: underline;
 }
 
