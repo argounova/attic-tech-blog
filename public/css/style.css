@@ -19,7 +19,14 @@ header {
 }
 
 body {
-  background: linear-gradient(0deg, rgba(22,22,22,1) 0%, rgba(13,13,13,1) 50%);}
+  background: linear-gradient(0deg, rgba(22,22,22,1) 0%, rgba(13,13,13,1) 50%);
+  color: #a0a0a0
+}
+
+ul li h2 {
+  font-family: 'Aboreto', sans-serif;
+  color: #a0a0a0;
+}
 
 #theAttic {
   font-family: 'Aboreto', sans-serif;
@@ -33,6 +40,7 @@ body {
 
 .blog-post {
   display: flex;
+  flex-direction: column;
   align-items: center;
   margin: auto;
   width: 75%;
