@@ -1,12 +1,10 @@
-<div class="text-center">
+<div class="col blog-post">
   <h2>{{blog_title}}</h2>
-  <p>{{blog_post}}</p>
   <p>Created by {{name}} on {{format_date date_created}}</p>
-  <div class="input-group">
+  <p>{{blog_post}}</p>
+  <div class="input-group" style="padding: 10px;">
     <span class="input-group-text">Join the conversation!</span>
     <textarea class="form-control" placeholder="Enter your comment" aria-label="With textarea" id="new-comment"></textarea>
     <button class="btn btn-primary" type="button" id="button-addon1">Submit Comment</button>
   </div>
 </div>
-
-<script src="../js/comment.js"></script>
